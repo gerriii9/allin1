@@ -1,0 +1,14 @@
+[build]
+  publish = "."
+
+# NÁVRH: kým web nie je schválený, vyhľadávače ho nemajú indexovať.
+# Pri ostrom spustení tento blok zmaž (a aj meta robots v index.html a robots.txt).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
+
+[[headers]]
+  for = "/content/*"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"

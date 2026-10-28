@@ -1,0 +1,3 @@
+# NÁVRH – pri spustení nahraď za: User-agent: *  /  Allow: /
+User-agent: *
+Disallow: /
