@@ -1,12 +1,47 @@
 {
   "dni": [
-    { "den": "Pondelok", "zatvorene": false, "od": "10:45", "do": "22:00" },
-    { "den": "Utorok", "zatvorene": false, "od": "10:45", "do": "22:00" },
-    { "den": "Streda", "zatvorene": false, "od": "10:45", "do": "22:00" },
-    { "den": "Štvrtok", "zatvorene": false, "od": "10:45", "do": "22:00" },
-    { "den": "Piatok", "zatvorene": false, "od": "10:45", "do": "00:00" },
-    { "den": "Sobota", "zatvorene": false, "od": "14:00", "do": "00:00" },
-    { "den": "Nedeľa", "zatvorene": false, "od": "14:00", "do": "22:00" }
+    {
+      "den": "Pondelok",
+      "zatvorene": false,
+      "od": "10:45",
+      "do": "22:00"
+    },
+    {
+      "den": "Utorok",
+      "zatvorene": false,
+      "od": "10:45",
+      "do": "22:00"
+    },
+    {
+      "den": "Streda",
+      "zatvorene": false,
+      "od": "10:45",
+      "do": "22:00"
+    },
+    {
+      "den": "Štvrtok",
+      "zatvorene": false,
+      "od": "10:45",
+      "do": "22:00"
+    },
+    {
+      "den": "Piatok",
+      "zatvorene": false,
+      "od": "10:45",
+      "do": "00:00"
+    },
+    {
+      "den": "Sobota",
+      "zatvorene": false,
+      "od": "14:00",
+      "do": "00:00"
+    },
+    {
+      "den": "Nedeľa",
+      "zatvorene": false,
+      "od": "14:00",
+      "do": "22:00"
+    }
   ],
-  "poznamka": "Kuchyňa a prípadné zmeny počas sviatkov oznamujeme na Instagrame a Facebooku."
+  "poznamka": "Kuchyňu a prípadné zmeny počas sviatkov oznamujeme na Instagrame a Facebooku."
 }
