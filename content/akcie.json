@@ -39,6 +39,14 @@
       "cas": "",
       "popis": "Halloweenska video party. Masky vítané.",
       "foto": ""
+    },
+    {
+      "typ": "Iné",
+      "nazov": "test test",
+      "datum": "2026-11-01",
+      "foto": "/images/uploads/interier.jpg",
+      "popis": "toto je skuska popisu",
+      "cas": "17:00"
     }
   ]
 }
