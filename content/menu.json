@@ -1,0 +1,88 @@
+{
+  "poznamka": "Čísla alergénov sú uvedené pri jedlách. Podrobnejšie informácie vám rada poskytne obsluha.",
+  "kategorie": [
+    {
+      "nazov": "Smash burger",
+      "ikona": "🍔",
+      "polozky": [
+        { "nazov": "Gina's Smash Burger", "gramaz": "420 g", "alergeny": "", "popis": "Maslová soft žemľa, smash remuláda, nakladaná uhorka, červená cibuľa, 2× 50 g hovädzia roštenka, cheddar", "cena": 13.40, "oblubene": false, "foto": "/images/burger.jpg" },
+        { "nazov": "Hot Smokey Bacon Smash", "gramaz": "420 g", "alergeny": "", "popis": "Maslová soft žemľa, smash remuláda, jalapeños, červená cibuľa, 2× 50 g hovädzia roštenka, pepper jack syr", "cena": 13.40, "oblubene": false, "foto": "" },
+        { "nazov": "Big Chick Burger", "gramaz": "470 g", "alergeny": "1, 3, 7, 10", "popis": "Maslová soft žemľa, smash remuláda, červená cibuľa, paradajka, 150 g chrumkavé kuracie mäso", "cena": 13.40, "oblubene": false, "foto": "" },
+        { "nazov": "Crispy Cheddar Burger", "gramaz": "410 g", "alergeny": "", "popis": "Maslová soft žemľa, smash remuláda, červená cibuľa, paradajka, 90 g chrumkavý cheddar, domáca tatarka", "cena": 13.40, "oblubene": false, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "Hotdog",
+      "ikona": "🌭",
+      "polozky": [
+        { "nazov": "ALLin1 Dog", "gramaz": "320 g", "alergeny": "1, 3, 7, 10", "popis": "Maslový rohlík, uhorkový relish, polníček, bravčovo-hovädzí kabanos, cheddar, slanina, BBQ", "cena": 12.00, "oblubene": false, "foto": "" },
+        { "nazov": "Hot-Hot Dog", "gramaz": "320 g", "alergeny": "1, 3, 7", "popis": "Maslový rohlík, uhorkový relish, polníček, bravčovo-hovädzí kabanos, cheddar, slanina, údená pikantná mayo", "cena": 12.00, "oblubene": false, "foto": "" },
+        { "nazov": "Philly Dog", "gramaz": "410 g", "alergeny": "1, 3, 7, 10", "popis": "Maslový rohlík, uhorkový relish, polníček, trhané hovädzie mäso", "cena": 12.40, "oblubene": true, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "K pivu",
+      "ikona": "🍺",
+      "polozky": [
+        { "nazov": "Hovädzí tatarák", "gramaz": "100 g", "alergeny": "1, 3, 10", "popis": "Podávaný s hranolkami", "cena": 13.40, "oblubene": false, "foto": "" },
+        { "nazov": "Mini langoše", "gramaz": "240 g", "alergeny": "1, 7", "popis": "4 ks langošov z domáceho cesta, cesnakovo-olivový olej, strúhaný syr, domáca tatarka", "cena": 7.40, "oblubene": false, "foto": "" },
+        { "nazov": "Nakladaný hermelín", "gramaz": "120 g", "alergeny": "1, 7", "popis": "Podávaný s chlebom", "cena": 6.10, "oblubene": false, "foto": "" },
+        { "nazov": "Pražené mandle", "gramaz": "100 g", "alergeny": "8", "popis": "", "cena": 5.10, "oblubene": false, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "Obľúbené",
+      "ikona": "⭐",
+      "polozky": [
+        { "nazov": "Vyprážaný syr", "gramaz": "150 g", "alergeny": "1, 3, 7", "popis": "Podávaný s hranolkami a malým šalátom", "cena": 12.40, "oblubene": false, "foto": "/images/vyprazany-syr.jpg" },
+        { "nazov": "Fish and chips", "gramaz": "150 g", "alergeny": "1, 3, 4, 7", "popis": "Hranolky, šalát, domáca tatarka a limetka", "cena": 14.40, "oblubene": false, "foto": "" },
+        { "nazov": "Bravčové rebrá s BBQ", "gramaz": "650 g", "alergeny": "", "popis": "Podávané s chlebom, kyslou oblohou a BBQ omáčkou", "cena": 16.00, "oblubene": true, "foto": "/images/rebra.jpg" }
+      ]
+    },
+    {
+      "nazov": "Sandwich",
+      "ikona": "🥪",
+      "polozky": [
+        { "nazov": "B.L.T.C. Sandwich", "gramaz": "300 g", "alergeny": "1, 3, 7", "popis": "Kváskový chlieb, kuracie stripsy, paradajka, šalát, slanina, mayo, cheddar, cesnaková aioli", "cena": 13.40, "oblubene": false, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "Pinsa",
+      "ikona": "🍕",
+      "polozky": [
+        { "nazov": "Slaninová", "gramaz": "400 g", "alergeny": "1, 3, 7", "popis": "Smotanový základ, zrejúci syr, slanina, červená cibuľa, rukola, olivový olej", "cena": 12.40, "oblubene": false, "foto": "" },
+        { "nazov": "Syrová s bazalkou", "gramaz": "400 g", "alergeny": "1, 3, 7", "popis": "Paradajkový základ, zrejúci syr, mozzarella, sušené paradajky, rukola, pesto, olivový olej", "cena": 12.40, "oblubene": false, "foto": "" },
+        { "nazov": "Americana", "gramaz": "400 g", "alergeny": "1, 3, 7", "popis": "Paradajkový základ, cheddar, trhané hovädzie, červená cibuľa, BBQ, jalapeños", "cena": 12.40, "oblubene": false, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "Wrap",
+      "ikona": "🌯",
+      "polozky": [
+        { "nazov": "S kuracím mäsom", "gramaz": "", "alergeny": "1, 3, 7, 10, 11", "popis": "Tortilla, grilované alebo chrumkavé kuracie mäso, cheddar, paradajka, polníček, hranolky, domáca tatarka", "cena": 13.40, "oblubene": false, "foto": "" },
+        { "nazov": "S trhaným hovädzím mäsom", "gramaz": "", "alergeny": "", "popis": "Tortilla, trhané hovädzie mäso, cheddar, paradajka, polníček, hranolky, BBQ omáčka", "cena": 13.40, "oblubene": false, "foto": "" },
+        { "nazov": "S chrumkavým cheddarom", "gramaz": "", "alergeny": "1, 3, 7, 11", "popis": "Tortilla, chrumkavý cheddar, polníček, paradajka, červená cibuľa, hranolky, Allin1 mayo", "cena": 13.40, "oblubene": false, "foto": "" }
+      ]
+    },
+    {
+      "nazov": "Sladké",
+      "ikona": "🍰",
+      "polozky": [
+        { "nazov": "Mini šišky preliate Nutellou", "gramaz": "180 g", "alergeny": "1, 3, 5, 7", "popis": "Podávané so sezónnym ovocím", "cena": 7.40, "oblubene": false, "foto": "" },
+        { "nazov": "Lievance s horúcim ovocím", "gramaz": "180 g", "alergeny": "1, 3, 7", "popis": "", "cena": 7.90, "oblubene": false, "foto": "/images/lievance.jpg" }
+      ]
+    },
+    {
+      "nazov": "Omáčky",
+      "ikona": "🥫",
+      "polozky": [
+        { "nazov": "Allin1 mayo", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" },
+        { "nazov": "Domáca tatárska omáčka", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" },
+        { "nazov": "BBQ omáčka", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" },
+        { "nazov": "Údená pikantná mayo", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" },
+        { "nazov": "Kečup", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" },
+        { "nazov": "Slaninová omáčka", "gramaz": "", "alergeny": "", "popis": "", "cena": 2.00, "oblubene": false, "foto": "" }
+      ]
+    }
+  ]
+}

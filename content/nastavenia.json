@@ -1,0 +1,20 @@
+{
+  "oznam": {
+    "zobrazit": false,
+    "text": "Tento týždeň máme v pondelok až stredu otvorené 16:00 – 22:00. Ďakujeme za porozumenie."
+  },
+  "katering": {
+    "zobrazit": true,
+    "nadpis": "Párty misy na objednávku",
+    "text": "Oslava, firemná akcia alebo veľký zápas s partiou? Na objednávku pripravíme poriadne misy plné rebier, kolien, krídelok a hranoliek. Množstvo aj cenu dohodneme podľa počtu ľudí.",
+    "fotky": [
+      { "foto": "/images/katering-1.jpg" },
+      { "foto": "/images/katering-2.jpg" }
+    ]
+  },
+  "telefon": "+421 919 341 339",
+  "adresa": "Kollárova 16, 917 01 Trnava",
+  "instagram": "",
+  "facebook": "",
+  "wolt": "https://wolt.com/sk/svk/trnava/restaurant/allin1-sportpub"
+}

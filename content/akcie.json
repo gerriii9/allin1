@@ -1,0 +1,44 @@
+{
+  "akcie": [
+    {
+      "nazov": "Všeobecný kvíz",
+      "typ": "Kvíz",
+      "datum": "2026-10-27",
+      "cas": "",
+      "popis": "Kvízový večer v spolupráci s TomuVer. Zostavte tím a príďte si zmerať vedomosti.",
+      "foto": ""
+    },
+    {
+      "nazov": "Futbalový kvíz",
+      "typ": "Kvíz",
+      "datum": "2026-10-28",
+      "cas": "",
+      "popis": "Kvíz pre všetkých, čo žijú futbalom. Odporúčame rezervovať stôl vopred.",
+      "foto": ""
+    },
+    {
+      "nazov": "Hororový kvíz",
+      "typ": "Kvíz",
+      "datum": "2026-10-29",
+      "cas": "",
+      "popis": "Strašidelná edícia kvízu tesne pred Halloweenom.",
+      "foto": ""
+    },
+    {
+      "nazov": "Spartak Trnava",
+      "typ": "Športový prenos",
+      "datum": "2026-10-31",
+      "cas": "",
+      "popis": "Zápas Spartaka pozeráme spolu. Príďte fandiť!",
+      "foto": ""
+    },
+    {
+      "nazov": "Halloween video party",
+      "typ": "Párty",
+      "datum": "2026-10-31",
+      "cas": "",
+      "popis": "Halloweenska video party. Masky vítané.",
+      "foto": ""
+    }
+  ]
+}

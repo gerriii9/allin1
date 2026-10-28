@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" fill="none" stroke="#ffffff" stroke-opacity="0.075" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+  <!-- futbalová lopta -->
+  <g transform="translate(110 110) rotate(-12)">
+    <circle r="62"/>
+    <path d="M0 -20 L19 -6 L12 16 L-12 16 L-19 -6 Z"/>
+    <path d="M0 -20 L0 -44 M19 -6 L42 -14 M12 16 L26 38 M-12 16 L-26 38 M-19 -6 L-42 -14"/>
+    <path d="M0 -44 L-18 -58 M0 -44 L18 -58 M42 -14 L58 -26 M42 -14 L52 12 M26 38 L46 36 M26 38 L18 58 M-26 38 L-18 58 M-26 38 L-46 36 M-42 -14 L-52 12 M-42 -14 L-58 -26"/>
+  </g>
+  <!-- pivo -->
+  <g transform="translate(470 70) rotate(8)">
+    <path d="M0 30 L6 150 Q8 162 20 162 L80 162 Q92 162 94 150 L100 30"/>
+    <path d="M-4 30 Q-10 10 10 8 Q16 -8 36 0 Q50 -12 66 0 Q86 -6 92 10 Q110 14 104 30 Z"/>
+    <path d="M100 56 Q140 56 138 96 Q136 132 98 132"/>
+    <path d="M100 74 Q120 76 119 96 Q118 114 98 114"/>
+    <path d="M26 52 L28 140 M50 52 L50 140 M74 52 L72 140"/>
+  </g>
+  <!-- šípkový terč so šípkou -->
+  <g transform="translate(130 470)">
+    <circle r="66"/>
+    <circle r="50"/>
+    <circle r="32"/>
+    <circle r="14"/>
+    <circle r="4"/>
+    <path d="M0 -66 L0 66 M-66 0 L66 0 M-47 -47 L47 47 M47 -47 L-47 47"/>
+    <path d="M6 -6 L70 -70"/>
+    <path d="M70 -70 L74 -90 L84 -80 Z M70 -70 L90 -74 L80 -84"/>
+  </g>
+  <!-- taktická tabuľa / ihrisko -->
+  <g transform="translate(450 380) rotate(-7)">
+    <rect x="0" y="0" width="130" height="180" rx="6"/>
+    <path d="M0 90 L130 90"/>
+    <circle cx="65" cy="90" r="20"/>
+    <path d="M35 0 L35 30 L95 30 L95 0 M35 180 L35 150 L95 150 L95 180"/>
+    <path d="M20 60 l10 10 m0 -10 l-10 10 M98 120 l10 10 m0 -10 l-10 10"/>
+    <circle cx="40" cy="128" r="5"/>
+    <circle cx="96" cy="58" r="5"/>
+    <path d="M44 124 Q70 104 92 64" stroke-dasharray="4 7"/>
+  </g>
+  <!-- píšťalka -->
+  <g transform="translate(300 300) rotate(-20)">
+    <path d="M0 0 L60 0 Q78 0 78 18 Q78 44 50 44 Q24 44 22 22 L0 22 Z"/>
+    <circle cx="50" cy="22" r="8"/>
+    <path d="M-6 0 L-6 22"/>
+  </g>
+  <!-- iskričky -->
+  <g transform="translate(320 120)">
+    <path d="M0 -18 L0 -6 M0 6 L0 18 M-18 0 L-6 0 M6 0 L18 0"/>
+  </g>
+  <g transform="translate(300 560)">
+    <path d="M-30 0 L-14 0 M14 0 L30 0 M0 -30 L0 -14 M0 14 L0 30 M-20 -20 L-10 -10 M10 10 L20 20 M20 -20 L10 -10 M-10 10 L-20 20"/>
+  </g>
+  <!-- hokejový puk -->
+  <g transform="translate(600 300)">
+    <ellipse cx="0" cy="0" rx="26" ry="9"/>
+    <path d="M-26 0 L-26 12 Q0 26 26 12 L26 0"/>
+  </g>
+</svg>

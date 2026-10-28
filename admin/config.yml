@@ -1,0 +1,140 @@
+# Správa obsahu webu All in 1 Sport Pub (Decap CMS)
+backend:
+  name: git-gateway
+  branch: main
+  commit_messages:
+    update: "Úprava: {{slug}}"
+
+# Na lokálne testovanie: v priečinku projektu spusti `npx decap-server`
+# a otvor http://localhost:8080/admin/ (napr. cez `npx serve -l 8080`)
+local_backend: true
+
+locale: cs
+site_url: /
+display_url: /
+logo_url: /images/logo.png
+
+media_folder: images/uploads
+public_folder: /images/uploads
+
+collections:
+  # ---------- OTVÁRACIE HODINY ----------
+  - name: hodiny
+    label: "🕒 Otváracie hodiny"
+    editor: { preview: false }
+    files:
+      - name: hodiny
+        label: "Otváracie hodiny"
+        file: content/hodiny.json
+        fields:
+          - label: "Dni"
+            name: dni
+            widget: list
+            allow_add: false
+            allow_remove: false
+            allow_reorder: false
+            collapsed: false
+            summary: "{{fields.den}}: {{fields.od}} – {{fields.do}}"
+            fields:
+              - { label: "Deň", name: den, widget: string }
+              - { label: "Zatvorené celý deň", name: zatvorene, widget: boolean, default: false, required: false }
+              - { label: "Otvárame (napr. 10:45)", name: od, widget: string, required: false, pattern: ['^([01]?\d|2[0-3]):[0-5]\d$', "Zadaj čas v tvare HH:MM, napr. 10:45"] }
+              - { label: "Zatvárame (napr. 22:00, polnoc = 00:00)", name: do, widget: string, required: false, pattern: ['^([01]?\d|2[0-3]):[0-5]\d$', "Zadaj čas v tvare HH:MM, napr. 22:00"] }
+          - { label: "Poznámka pod hodinami", name: poznamka, widget: text, required: false }
+
+  # ---------- PROGRAM / AKCIE ----------
+  - name: akcie
+    label: "🎯 Program a akcie"
+    editor: { preview: false }
+    files:
+      - name: akcie
+        label: "Program a akcie (kvízy, turnaje, zápasy)"
+        file: content/akcie.json
+        fields:
+          - label: "Akcie"
+            name: akcie
+            widget: list
+            label_singular: "akciu"
+            summary: "{{fields.datum}} · {{fields.nazov}}"
+            hint: "Akcie sa na webe zoradia podľa dátumu a po skončení samé zmiznú."
+            fields:
+              - { label: "Názov", name: nazov, widget: string }
+              - label: "Typ"
+                name: typ
+                widget: select
+                options: ["Kvíz", "Šípky", "Športový prenos", "Párty", "Iné"]
+                default: "Kvíz"
+              - { label: "Dátum", name: datum, widget: datetime, format: "YYYY-MM-DD", date_format: "DD.MM.YYYY", time_format: false, picker_utc: true }
+              - { label: "Čas začiatku (napr. 19:00)", name: cas, widget: string, required: false }
+              - { label: "Popis", name: popis, widget: text, required: false }
+              - { label: "Fotka (nepovinné)", name: foto, widget: image, required: false, choose_url: false }
+
+  # ---------- MENU ----------
+  - name: menu
+    label: "🍔 Menu"
+    editor: { preview: false }
+    files:
+      - name: menu
+        label: "Jedálny lístok"
+        file: content/menu.json
+        fields:
+          - label: "Kategórie"
+            name: kategorie
+            widget: list
+            label_singular: "kategóriu"
+            summary: "{{fields.ikona}} {{fields.nazov}}"
+            fields:
+              - { label: "Názov kategórie", name: nazov, widget: string }
+              - { label: "Ikona (emoji)", name: ikona, widget: string, required: false, hint: "Napr. 🍔 🌭 🍕 – nepovinné" }
+              - label: "Jedlá"
+                name: polozky
+                widget: list
+                label_singular: "jedlo"
+                summary: "{{fields.nazov}} – {{fields.cena}} €"
+                fields:
+                  - { label: "Názov", name: nazov, widget: string }
+                  - { label: "Cena (€)", name: cena, widget: number, value_type: float, step: 0.1, min: 0 }
+                  - { label: "Popis / zloženie", name: popis, widget: text, required: false }
+                  - { label: "Gramáž (napr. 420 g)", name: gramaz, widget: string, required: false }
+                  - { label: "Alergény (napr. 1, 3, 7)", name: alergeny, widget: string, required: false }
+                  - { label: "Označiť ako obľúbené", name: oblubene, widget: boolean, default: false, required: false }
+                  - { label: "Fotka (nepovinné – zobrazí sa aj v galérii)", name: foto, widget: image, required: false, choose_url: false }
+          - { label: "Poznámka pod menu", name: poznamka, widget: text, required: false }
+
+  # ---------- NASTAVENIA ----------
+  - name: nastavenia
+    label: "⚙️ Oznam a kontakty"
+    editor: { preview: false }
+    files:
+      - name: nastavenia
+        label: "Oznam a kontakty"
+        file: content/nastavenia.json
+        fields:
+          - label: "Oznam na vrchu stránky"
+            name: oznam
+            widget: object
+            collapsed: false
+            hint: "Napr. zmena otváracích hodín, sviatky, dovolenka."
+            fields:
+              - { label: "Zobraziť oznam", name: zobrazit, widget: boolean, default: false, required: false }
+              - { label: "Text oznamu", name: text, widget: text, required: false }
+          - label: "Katering / párty misy"
+            name: katering
+            widget: object
+            collapsed: true
+            fields:
+              - { label: "Zobraziť sekciu na webe", name: zobrazit, widget: boolean, default: true, required: false }
+              - { label: "Nadpis", name: nadpis, widget: string, required: false }
+              - { label: "Text", name: text, widget: text, required: false }
+              - label: "Fotky (max. 2)"
+                name: fotky
+                widget: list
+                max: 2
+                required: false
+                fields:
+                  - { label: "Fotka", name: foto, widget: image, choose_url: false }
+          - { label: "Telefón", name: telefon, widget: string }
+          - { label: "Adresa", name: adresa, widget: string }
+          - { label: "Instagram (celý odkaz)", name: instagram, widget: string, required: false, hint: "Napr. https://www.instagram.com/vas_ucet" }
+          - { label: "Facebook (celý odkaz)", name: facebook, widget: string, required: false }
+          - { label: "Wolt (celý odkaz)", name: wolt, widget: string, required: false }
